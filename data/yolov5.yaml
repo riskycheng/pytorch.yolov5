@@ -10,8 +10,8 @@
 # download: bash data/scripts/get_voc.sh
 
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: /home/jian/Documents/workspace/myWorkSpace/pytorch.yolov5/VOCdevkit_faceMask/train.txt  # 5508 images
-val: /home/jian/Documents/workspace/myWorkSpace/pytorch.yolov5/VOCdevkit_faceMask/val.txt # 612 images
+train: ./VOCdevkit_faceMask/train.txt  # 5508 images
+val: ./VOCdevkit_faceMask/val.txt # 612 images
 
 # number of classes
 nc: 2
